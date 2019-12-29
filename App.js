@@ -96,6 +96,6 @@ const mapDispatchToProps = dispatch => {
       dispatch(addPlace(name))
     } 
   }
-}
+}  
 
 export default connect(mapStateToProps, mapDispatchToProps)(App)
